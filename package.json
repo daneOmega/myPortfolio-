@@ -1,0 +1,14 @@
+{
+  "name": "sass2",
+  "version": "1.0.0",
+  "description": "Sass Portfolio Walkthrough",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Mohamed Said",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.11.0"
+  }
+}
